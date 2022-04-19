@@ -4,6 +4,6 @@
         "strict": true
     },
     "files": [
-        "src/app.ts"
+        "src/main.ts"
     ]
 }
