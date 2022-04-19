@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "strict": true
+    },
+    "files": [
+        "src/app.ts"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "description": "TypeScript exercices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahyamallak/TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yahyamallak/TypeScript/issues"
+  },
+  "homepage": "https://github.com/yahyamallak/TypeScript#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
