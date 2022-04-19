@@ -13,3 +13,14 @@ var ca = function (e) {
 var cb = function (e) {
     return 10;
 };
+var button = document.getElementById("btn");
+var i = 0;
+var increment = function (e) {
+    e.preventDefault();
+    i++;
+    var span = button === null || button === void 0 ? void 0 : button.querySelector("span");
+    if (span) {
+        span.innerText = i.toString();
+    }
+};
+button === null || button === void 0 ? void 0 : button.addEventListener('click', increment);
