@@ -46,3 +46,7 @@ function consoleSize<Type extends {length: number}>(arg: Type): Type {
 
 const size = consoleSize(['3', 10])
 
+
+function reverse<T>(arr: readonly T[]): T[] {
+    return [...arr].reverse()
+}
