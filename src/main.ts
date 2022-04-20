@@ -26,3 +26,23 @@ const increment = (e: Event) => {
 }
 
 button?.addEventListener('click', increment)
+
+
+type Player = {firstname: string, lastname: string}
+
+
+const player: Player = {firstname: "Leo", lastname: "Messi"}
+
+function identity<ArgType>(arg: ArgType): ArgType {
+    return arg
+}
+
+const arg = identity<number>(10)
+
+
+function consoleSize<Type extends {length: number}>(arg: Type): Type {
+    return arg
+}
+
+const size = consoleSize(['3', 10])
+

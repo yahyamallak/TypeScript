@@ -24,3 +24,12 @@ var increment = function (e) {
     }
 };
 button === null || button === void 0 ? void 0 : button.addEventListener('click', increment);
+var player = { firstname: "Leo", lastname: "Messi" };
+function identity(arg) {
+    return arg;
+}
+var arg = identity(10);
+function consoleSize(arg) {
+    return arg;
+}
+var size = consoleSize(['3', 10]);
